@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="main.css" rel="stylesheet" type="text/css">
+  <script type="module" src="script/index.js"></script>
+  <script type="module" src="script/bubble_sort.js"></script>
+  <script type="module" src="script/insertion_sort.js"></script>
+  <script type="module" src="script/quick_sort.js"></script>
+  <script type="module" src="script/selection_sort.js"></script>
+  <script type="module" src="script/env.js"></script>
+  <title>Title</title>
+</head>
+<body>
+  <main>
+    <div class="shell_container">
+      <div class="shell_title">
+        <h2 class="title">
+          Учебная практика
+        </h2>
+      </div>
+      <form class="shell_form">
+        <div class="dimension_container">
+          <span>Напишите размерность массива в десятичной системе исчисления</span>
+          <input type="number" class="array_dimension" name="array_dimension" >
+        </div>
+        <div class="text_container">
+          <p class="head_text">Напишите элементы массива через пробел</p>
+          <input type="text" class="array_text" name="array_text" >
+        </div>
+        <div class="sort_container">
+          <span>Выберите способ сортировки</span>
+          <select name="array_sort" class="array_sort">
+            <option selected value="1">Пузырьком</option>
+            <option value="2">Выбором</option>
+            <option value="3">Вставками</option>
+            <option value="4">Быстрая</option>
+          </select>
+        </div>
+        <div class="time_container">
+          <span>Показывать время за сколько исполнился алгоритм</span>
+          <input type="checkbox" class="array_check" name="array_check">
+        </div>
+        <input type="submit" class="array_button" name="array_button" value="Запустить">
+      </form>
+      <div class="show_container">
+        <div class="time_out_container">
+          <span class="time_out"></span>
+        </div>
+        <div class="sorted_array">
+          <span class="array"></span>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

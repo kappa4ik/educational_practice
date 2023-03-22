@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main{
+  width: 400px;
+  height: 350px;
+}
+
+.shell_container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.shell_title{
+  margin: 0 auto 0 auto;
+}
+
+.shell_form{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dimension_container{
+  margin: 0 auto 0 auto;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.array_dimension{
+  margin-left: 10px;
+  width: 50px;
+  height: 20px;
+}
+
+.text_container{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.head_text{
+}
+
+.array_text{
+  width: 350px;
+}
+
+.sort_container{
+  margin: 10px auto 0 auto;
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.time_container{
+  margin: 10px 20px 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.array_button{
+  margin-top: 10px;
+}
+
+.show_container{
+  margin: 20px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 100px;
+}
+
+.time_out_container{
+  margin-bottom: 15px;
+}
+
+.sorted_array{
+  width: 200px;
+}
